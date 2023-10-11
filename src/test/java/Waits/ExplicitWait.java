@@ -23,6 +23,7 @@ public class ExplicitWait {
                         "div[1]/div[4]/center[1]/input[1]")));
         searchButton.click();
 
+
         Thread.sleep(5000);
         driver.close();
     }

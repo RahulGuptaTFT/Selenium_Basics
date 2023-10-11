@@ -29,7 +29,6 @@ public class dropdown3 {
         for (WebElement ele : month_list){
             System.out.println(ele.getText());
         }
-
         driver.close();
     }
 }
